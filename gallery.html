@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<title>Bhandardara dam camping gallery</title>
+<meta name="description" content="Our activities are Boating,Trakking,Swmming, and Campfire.Camping rules.Stare at fire.Listen to the birds.jump in lake.Take a nap.Relax.Watch the sunset.cook over the fire.breathe the fresh air.">
+<meta name="keywords" content="Boating,Dam camping,Trakking,Swimming,Tent,CampFire,Bhandardara dam camping">
+<link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css" integrity="sha512-Ef5r/bdKQ7JAmVBbTgivSgg3RM+SLRjwU0cAgySwTSv4+jYcVeDukMp+9lZGWT78T4vCUxgT3g+E8t7uabwRuw==" crossorigin="anonymous" />
+<link rel="stylesheet" href="./css/style.css">
+<style>
+ .w3-third,.w3-quarter,.w3-half{
+     padding: 10px;
+ }
+ .img-pad img{ 
+     padding: 5px;
+ }
+ @media only screen and (max-width:600px){
+   #img01{
+       width:250px;
+       height:250px;
+   }
+
+}
+</style>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!---------Header---------------------->
+    <div class="w3-bar ">
+       
+        <div class="w3-card-4 w3-top w3-black" >
+            <a href="#" onclick="w3_open()" class="w3-bar-item w3-button w3-hover-none w3-hide-large  w3-text-white w3-xlarge w3-hover-text-red w3-animate-left"> <i class="fa fa-bars toggle"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-xlarge logo  w3-hover-text-red w3-animate-left"><img src="./img/logo1.png" alt="" height="40px" width="150px" style="margin-left:-30px;"></a>
+            <a  class="w3-right w3-button w3-hover-green w3-green wp w3-hide-large" id="WAButton"  href="https://wa.me/918421528733" title="click to open whatsapp chat"><i class="fa w3-xlarge fa-whatsapp"></i> <span class="wp-hide">Book Now</span></a>       
+            <a  class="w3-right w3-button w3-hover-green w3-red wp w3-hide-small w3-hide-medium"  href="contact-us.html"  title="click to open whatsapp chat"><i class="fa w3-xlarge fa-credit-card"></i> <span class="wp-hide">Book Now</span></a>       
+            <div class="w3-hide-small w3-right w3-text-white w3-hide-medium" style="margin-right:100px;margin-top:4px;">
+              <a href="index.html" class="w3-bar-item w3-large w3-button w3-hover-green ">Home</a>
+            <div class="w3-dropdown-hover" >
+              <a class="w3-button w3-hover-green w3-large">Categoty<i class="fa fa-caret-down" style="margin-top:-5px;"></i></a>
+              <div class="w3-dropdown-content w3-bar-block w3-text-white w3-black">
+                <a href="boating.html" class="w3-bar-item w3-button w3-hover-green">Boating</a>
+                <a href="swimming.html" class="w3-bar-item w3-button w3-hover-green">Swimming</a>
+                <a href="tubing.html" class="w3-bar-item w3-button w3-hover-green">Tubing</a>
+                <a href="trakking.html" class="w3-bar-item w3-button w3-hover-green">Trakking</a>
+                <a href="camp-fire.html" class="w3-bar-item w3-button w3-hover-green">Camp Fire</a>
+                <a href="tent.html" class="w3-bar-item  w3-button w3-hover-green">Tent</a>
+
+              </div>
+            </div>
+            <a href="gallery.html" class="w3-bar-item w3-green w3-large w3-button w3-hover-green">Gallery</a>
+            <a href="attration.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Attrations</a>
+            <a href="pakages.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Pakages</a>
+            <a href="contact-us.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-sidebar  w3-border-right w3-hide-large w3-animate-left w3-black" style="display:none" id="mySidebar">
+            <div class=" w3-center w3-text-white w3-mobile w3-bar-block" >
+              <a onclick="w3_close()" class="w3-bar-item w3-mobile w3-xlarge"> <span class="w3-right w3-text-red">&times;</span></a>
+              <a href="index.html" class="w3-bar-item   w3-large w3-button w3-hover-green ">Home</a>
+            <div class="w3-dropdown-click" >
+              <a class="w3-button w3-center w3-hover-green w3-large" onclick="myFunction()">Categoty<i class="fa fa-caret-down" style="margin-top:-5px;"></i></a>
+              <div id="Demo" class="w3-dropdown-content w3-bar-block w3-text-white w3-black">
+                <a href="boating.html" class="w3-bar-item w3-button w3-hover-green">Boating</a>
+                <a href="swimming.html" class="w3-bar-item w3-button w3-hover-green">Swimming</a>
+                <a href="tubing.html" class="w3-bar-item w3-button w3-hover-green">Tubing</a>
+                <a href="trakking.html" class="w3-bar-item w3-button w3-hover-green">Trakking</a>
+                <a href="camp-fire.html" class="w3-bar-item w3-button w3-hover-green">Camp Fire</a>
+                <a href="tent.html" class="w3-bar-item w3-button w3-hover-green">Tent</a>
+
+              </div>
+            </div>
+            <a href="gallery.html" class="w3-bar-item w3-green  w3-large w3-button w3-hover-green">Gallery</a>
+            <a href="attration.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Attrations</a>
+            <a href="pakages.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Pakages</a>
+            <a href="contact-us.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Contact Us</a>
+            </div>
+          </div>     
+
+    <!--------------Header of the Tab------->
+    <div class="w3-center w3-padding-16" style="margin-top:56px;background-image: url(./img/WhatsApp\ Image\ 2021-01-12\ at\ 8.21.37\ AM.jpg);background-size: cover;">
+        <h1>Gallery</h1>
+    </div>
+    <div class="w3-bar w3-white ">
+        <button class="w3-bar-item w3-button tablink  w3-red" onclick="openCity(event,'Boating')"><img src="./img/gallery.png" alt="" height="30px" width="30px"> <span class="w3-hide-small w3-hide-medium">All</span></button>
+        <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Swimming')"><img src="./img/boating.png" alt="" height="30px" width="30px">  <span class="w3-hide-small w3-hide-medium">Boating</span></button>
+        <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tubing')"><img  src="./img/tent-icon.png" alt="" height="30px" width="30px"> <span class="w3-hide-small w3-hide-medium">Tent</span></button>
+        <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Trakking')"><img  src="./img/meals.png" alt="" height="30px" width="30px"> <span class="w3-hide-small w3-hide-medium">Meals</span></button>
+        <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Camp-Fire')"><img  src="./img/fire-camp.png" alt="" height="30px" width="30px"> <span class="w3-hide-small w3-hide-medium">Camp Fire</span></button>
+      </div>
+
+      <!------all-->
+      <div id="Boating" class=" w3-border city">
+        
+        <div class="w3-row">
+            <div class="w3-third w3-con">
+                <img src="./img/Boating/boating2.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-third">
+                <img src="./img/Fire-camping/camp-fire8.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-third">
+                <img src="./img/Meals/meal4.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+        </div>
+         <!---Boting -row Second-->
+         <div class="w3-row " >
+            <div class="w3-quarter">
+                <img src="./img/tent/tent7.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-quarter">
+                <img src="./img/Meals/meal9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-quarter">
+                <img src="./img/Fire-camping/camp-fire11.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-quarter">
+                <img src="./img/Boating/boating3.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+        </div>
+        <!---Boting -row third-->
+        <div class="w3-row" >
+            <div class="w3-threequarter">
+                <img src="./img/tent/tent9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-quarter img-pad" >
+                <img  src="./img/tent/all-8.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+                <img  src="./img/tent/all-9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+                <img  src="./img/tent/all-3.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+                <img  src="./img/tent/all-6.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+                <img  src="./img/tent/all-5.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+        </div>
+
+
+         <!---Boting -row four-->
+         <div class="w3-row " >
+            <div class="w3-quarter img-pad">
+                <img src="./img/tent/all-1.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+                <img src="./img/tent/all-2.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-half">
+                <img src="./img/tent/all-4.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            <div class="w3-quarter img-pad">
+                <img src="./img/tent/all-7.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+                <img src="./img/tent/all-10.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            </div>
+            
+        </div>
+
+
+     </div>
+                <!-------Boating-----  -->
+  <div id="Swimming" class=" w3-border city" style="display:none">
+     <!---Swmming-row first-->
+     <div class="w3-row">
+        <div class="w3-half">
+            <img src="./img/Boating/boating1.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-half">
+            <img src="./img/Boating/boating2.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        
+    </div>
+     <!---Swmming -row Second-->
+     <div class="w3-row " >
+        <div class="w3-quarter">
+            <img src="./img/Boating/boating4.jpg" onclick="onClick(this)" alt="" height="320px" width="100%">
+        </div>
+        <div class="w3-quarter">
+            <img src="./img/Boating/boating3.jpg" onclick="onClick(this)" alt="" height="320px" width="100%">
+        </div>
+        <div class="w3-quarter">
+            <img src="./img/Boating/boating6.jpg" onclick="onClick(this)" alt="" height="320px" width="100%">
+        </div>
+        <div class="w3-quarter">
+            <img src="./img/Boating/boating7.jpg" onclick="onClick(this)" alt="" height="320px" width="100%">
+        </div>
+    </div>
+    <!---Swmming -row third-->
+    <div class="w3-row " >
+        <div class="w3-threequarter">
+            <img  src="./img/Boating/boating2.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+
+        </div>
+        <div class="w3-quarter img-pad" >
+            <img  src="./img/Boating/boting9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img  src="./img/Boating/boating10.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img src="./img/Boating/boating8.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+    </div>
+
+
+
+  </div>
+            <!---------tent-->
+  <div id="Tubing" class=" w3-border city" style="display:none">
+   <!---Tubing-row first-->
+   <div class="w3-row">
+    <div class="w3-third">
+        <img src="./img/tent/tent1.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    <div class="w3-third">
+        <img src="./img/tent/tent2.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    <div class="w3-third">
+        <img src="./img/tent/tent9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+</div>
+ <!---Tubing -row Second-->
+ <div class="w3-row " >
+    <div class="w3-quarter">
+        <img src="./img/tent/tent4.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    <div class="w3-quarter">
+        <img src="./img/tent/tent5.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    <div class="w3-quarter">
+        <img src="./img/tent/tent7.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    <div class="w3-quarter">
+        <img src="./img/tent/tent8.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+</div>
+<!---Tubing -row third-->
+<div class="w3-row " >
+    <div class="w3-threequarter">
+        <img src="./img/tent/tent6.jpg"onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    <div class="w3-quarter img-pad" >
+        <img  src="./img/tent/tent11.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        <img  src="./img/tent/tent12.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        <img  src="./img/tent/tent13.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        <img  src="./img/tent/tent14.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        <img  src="./img/tent/tent16.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+</div>
+
+
+ <!---Tubing -row four-->
+ <div class="w3-row " >
+    <div class="w3-half img-pad">
+        <img src="./img/tent/tent10.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    <div class="w3-half">
+        <img src="./img/tent/tent15.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+    </div>
+    
+    
+</div>
+  </div>
+
+            <!-----------Meals-->
+  <div id="Trakking" class=" w3-border city" style="display:none">
+     <!---Trakking-row first-->
+     <div class="w3-row">
+        <div class="w3-third">
+            <img src="./img/Meals/meal1.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-third">
+            <img src="./img/Meals/meal2.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-third">
+            <img src="./img/Meals/meal4.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+    </div>
+    
+    <!---Trakking -row third-->
+    <div class="w3-row " >
+        <div class="w3-threequarter">
+            <img src="./img/Meals/meal8.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-quarter img-pad" >
+            <img  src="./img/Meals/meal9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img  src="./img/Meals/meal10.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img  src="./img/Meals/meal11.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+    </div>
+
+
+     <!---Trakking -row four-->
+     <div class="w3-row " >
+        <div class="w3-quarter img-pad">
+            <img src="./img/Meals/meal12.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img src="./img/Meals/meal13.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-half">
+            <img src="./img/Meals/meal14.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-quarter img-pad">
+            <img src="./img/Meals/meal15.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img src="./img/Meals/meal9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        
+    </div>
+
+  </div>
+
+
+            <!----------Camp Fire-->
+  <div id="Camp-Fire" class=" w3-border city" style="display:none">
+    <!---Camp Fire-row first-->
+    <div class="w3-row">
+        <div class="w3-half">
+            <img src="./img/Fire-camping/camp-fire1.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+       
+        <div class="w3-half">
+            <img src="./img/Fire-camping/camp-fire3.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+    </div>
+     <!---Camp Fire -row Second-->
+     <div class="w3-row " >
+        <div class="w3-quarter">
+            <img src="./img/Fire-camping/camp-fire4.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-quarter">
+            <img src="./img/Fire-camping/camp-fire5.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-quarter">
+            <img src="./img/Fire-camping/camp-fire6.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-quarter">
+            <img src="./img/Fire-camping/camp-fire7.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+    </div>
+    <!---Boting -row third-->
+    <div class="w3-row " >
+        <div class="w3-threequarter">
+            <img src="/img/Fire-camping/camp-fire8.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+        <div class="w3-quarter img-pad" >
+            <img  src="./img/Fire-camping/camp-fire9.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img  src="./img/Fire-camping/camp-fire10.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img  src="./img/Fire-camping/camp-fire11.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img  src="./img/Fire-camping/camp-fire12.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+            <img  src="./img/Fire-camping/camp-fire13.jpg" onclick="onClick(this)" alt="" height="100%" width="100%">
+        </div>
+    </div>
+
+
+  
+  </div>
+</div>
+
+<div id="modal01" class="w3-modal w3-center w3-hide-small  " onclick="this.style.display='none'" >
+    <img class="w3-modal-content w3-display-container w3-animate-zoom w3-center model-image" id="img01" height="500px">
+    <p class="w3-button w3-hover-red w3-red w3-xlarge w3-display-topright" style="margin-right:20px;">&times;</p>
+
+  </div>
+  <!-----------------Footer-->
+
+  <footer class="w3-black">
+    <div class="w3-row  ">
+      <div class="w3-container  w3-third" >
+       <div class="w3-container w3-left">
+        <h2 class="w3-text-blue">Payment Details</h2>
+        <p><b>Name:</b>VASANT MARUTI ASAWALE</p>
+        <p><b>Bank Name:</b>State Bank Of India</p>
+        <p><b>Account No:</b>36921412945</p>
+        <p><b>IFSC:</b>SBIN0000386</p>
+       </div>
+      </div>
+      <div class="w3-container    w3-third">
+       <div class="w3-container w3-left">
+        <h2 class="w3-text-blue">Contact Us</h2>
+        <p><b>Name:</b>VASANT MARUTI ASAWALE</p>
+        <p><b>Mobile No:</b>+91 8421528733/ 9405342256</p>
+        <p><b>At Post:</b>Akole</p>
+        <p><b>Taluka:</b>Akole</p>
+        <p><b>Dist:</b>Ahmednagar</p>
+        <p><b>Maharastra:</b>422604 </p>
+        <p><b>Email:</b>campingvisits@gmail.com </p>
+       </div>
+      </div>  
+      <div class="w3-container w3-right  w3-third">
+       <div class="w3-container w3-left">
+        <h2 class="w3-text-blue">How to Reach Us</h2>
+        <p>Murshet</p>
+        <p>Akole</p> 
+        <p>Ahmednagar 422604</p>
+      </div>
+       </div>
+    </div> 
+    <hr>
+    <div class="w3-center">
+        <a  class="w3-bar-item " id="WAButton"  href="https://wa.me/918421528733" title="click to open whatsapp chat"><i class="fa w3-xxlarge w3-text-green fa-whatsapp"></i></a>       
+        <a class="w3-bar-item " href="#"><i class="fa w3-xxlarge w3-text-blue  fa-facebook"></i></a>
+      <a class="w3-bar-item " href="#"><i class="fa w3-xxlarge w3-text-red  fa-instagram"></i></a>
+      <a class="w3-bar-item  w3-hide-large" href="sms:+918421528733"><i class="fa w3-xxlarge w3-text-white  fa-commenting-o"></i></a>
+    </div>
+  </footer>
+<script>
+  
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+
+
+</script>
+</script>
+<script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+    </script>
+<script src="./js/mian.js"></script>
+    
+</body>
+</html>

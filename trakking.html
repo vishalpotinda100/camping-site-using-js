@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<title>Trakking | Dam camping | Boating </title>
+<meta name="description" content="Our activities are Boating,Trakking,Swmming, and Campfire.Camping rules.Stare at fire.Listen to the birds.jump in lake.Take a nap.Relax.Watch the sunset.cook over the fire.breathe the fresh air.">
+<meta name="keywords" content="Boating,Dam camping,Trakking,Swimming,Tent,CampFire,Bhandardara dam camping">
+<link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css" integrity="sha512-Ef5r/bdKQ7JAmVBbTgivSgg3RM+SLRjwU0cAgySwTSv4+jYcVeDukMp+9lZGWT78T4vCUxgT3g+E8t7uabwRuw==" crossorigin="anonymous" />
+<link rel="stylesheet" href="./css/style.css">
+<style>
+   .title{
+       font-size:100px;
+       text-shadow:2px 3px red;
+   }
+   .w3-half{
+       margin:5px;
+   }
+   .w3-third,.w3-quarter,.w3-half{
+     padding: 10px;
+ }
+ .img-pad img{ 
+     padding: 5px;
+ }
+   @media only screen and (min-width:768px){
+   .boating-image{
+       width: 100%;
+       height:450px;
+   }
+   .boating-container{
+            margin:10px 140px 0 140px;
+   }
+  
+   }
+   @media only screen and (max-width:768px){
+        .title{
+            font-size:50px;
+        } 
+        
+   }
+</style>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!---------Header---------------------->
+    <div class="w3-bar ">
+        <div class="w3-card-4 w3-top w3-black" >
+            <a href="#" onclick="w3_open()" class="w3-bar-item w3-button w3-hover-none w3-hide-large  w3-text-white w3-xlarge w3-hover-text-red w3-animate-left"> <i class="fa fa-bars toggle"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-none w3-text-white w3-xlarge logo  w3-hover-text-red w3-animate-left"><img src="./img/logo1.png" alt="" height="40px" width="150px" style="margin-left:-30px;"></a>
+            <a  class="w3-right w3-button w3-hover-green w3-green wp w3-hide-large" id="WAButton"  href="https://wa.me/918421528733" title="click to open whatsapp chat"><i class="fa w3-xlarge fa-whatsapp"></i> <span class="wp-hide">Book Now</span></a>       
+            <a  class="w3-right w3-button w3-hover-green w3-red wp w3-hide-small w3-hide-medium"  href="contact-us.html"  title="click to open whatsapp chat"><i class="fa w3-xlarge fa-credit-card"></i> <span class="wp-hide">Book Now</span></a>       
+            <div class="w3-hide-small w3-right w3-text-white w3-hide-medium" style="margin-right:100px;margin-top:4px;">
+              <a href="index.html" class="w3-bar-item  w3-large w3-button w3-hover-green ">Home</a>
+            <div class="w3-dropdown-hover" >
+              <a class="w3-button w3-hover-green w3-green w3-large">Categoty<i class="fa fa-caret-down" style="margin-top:-5px;"></i></a>
+              <div class="w3-dropdown-content w3-bar-block w3-text-white w3-black">
+                <a href="boating.html" class="w3-bar-item w3-button w3-hover-green">Boating</a>
+                <a href="swimming.html" class="w3-bar-item w3-button w3-hover-green">Swimming</a>
+                <a href="tubing.html" class="w3-bar-item w3-button w3-hover-green">Tubing</a>
+                <a href="trakking.html" class="w3-bar-item w3-green w3-button w3-hover-green">Trakking</a>
+                <a href="camp-fire.html" class="w3-bar-item w3-button w3-hover-green">Camp Fire</a>
+                <a href="tent.html" class="w3-bar-item  w3-button w3-hover-green">Tent</a>
+
+              </div>
+            </div>
+            <a href="gallery.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Gallery</a>
+            <a href="attration.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Attrations</a>
+            <a href="pakages.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Pakages</a>
+            <a href="contact-us.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-sidebar  w3-border-right w3-hide-large w3-animate-left w3-black" style="display:none" id="mySidebar">
+          <div class=" w3-center w3-text-white w3-mobile w3-bar-block" >
+            <a onclick="w3_close()" class="w3-bar-item w3-mobile w3-xlarge"> <span class="w3-right w3-text-red">&times;</span></a>
+            <a href="index.html" class="w3-bar-item w3-green  w3-large w3-button w3-hover-green ">Home</a>
+          <div class="w3-dropdown-click" >
+            <a class="w3-button w3-center w3-hover-green w3-large" onclick="myFunction()">Categoty<i class="fa fa-caret-down" style="margin-top:-5px;"></i></a>
+            <div id="Demo" class="w3-dropdown-content w3-bar-block w3-text-white w3-black">
+              <a href="boating.html" class="w3-bar-item w3-button w3-hover-green">Boating</a>
+              <a href="swimming.html" class="w3-bar-item w3-button w3-hover-green">Swimming</a>
+              <a href="tubing.html" class="w3-bar-item w3-button w3-hover-green">Tubing</a>
+              <a href="trakking.html" class="w3-bar-item w3-button w3-hover-green">Trakking</a>
+              <a href="camp-fire.html" class="w3-bar-item w3-button w3-hover-green">Camp Fire</a>
+              <a href="tent.html" class="w3-bar-item w3-button w3-hover-green">Tent</a>
+            </div>
+          </div>
+          <a href="gallery.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Gallery</a>
+          <a href="attration.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Attrations</a>
+          <a href="pakages.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Pakages</a>
+          <a href="contact-us.html" class="w3-bar-item  w3-large w3-button w3-hover-green">Contact Us</a>
+          </div>
+        </div>     
+        
+    
+
+        <div class="w3-center w3-padding-16" style="margin-top:56px;background-image: url(./img/WhatsApp\ Image\ 2021-01-12\ at\ 8.21.37\ AM.jpg);background-size: cover;">
+          <h1>Trakking</h1>
+      </div>
+    <div class="  w3-container w3-border">
+          <div class="w3-row">
+            <div class="w3-threequarter">
+              <img class="boating-image" src="./img/trekking.jpeg" height="100%"  width="100%" alt="">
+    
+            </div>
+            <div class="w3-quarter ">
+              <h1 class="w3-center">Camping Booking</h1>
+              <ul style="list-style-type: none;font-size: small;">
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i>Perfect Mixture of Camping & Offbeat</li>
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i>Music and Entertainment</li>
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i> Explore Nature's Treasures</li>
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i> Lakeside Camping Experience</li>
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i>Lakeside Camping Under the Stars</li>
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i>Bonfire</li>
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i>Boating</li>
+                <li><i class="fa fa-check-square w3-large w3-text-green" aria-hidden="true"></i>Tent Stay with proper Bedding</li>
+              </ul>
+              <a href="pakages.html" class="w3-button w3-card-4 w3-block w3-red">Book Now</a>
+            </div>
+          </div>
+    </div>
+    
+    <!-----Over view---->
+        <div class="w3-container boating-container" >
+            <h3><b>Overview</b></h3>
+           <p>Trekking is combination of hiking and walking activity in which people take multi-days trips in rural, un development area. In another words, Trekking is making a journey/trip on foot, especially to hike through mountainous areas often for multiple days and along lovely mountains villages and enjoying nature and/or close contact with people in remote mountain villages where lifestyle sometimes is unchanged since many generations. Trekking is also done in risky mountain areas so it will help to gain more adventurous build up capacity to the trekkers’. Trekker will get knowledge that is more adventurous with the real life scenario in mountain areas or in remote area. </p>
+            <h3><b>Schedule of Activity</b></h3>
+            <div class="w3-container">
+              <img class="schedule" src="./img/time-table.jpg " height="100%" width="100%" alt="">
+            </div>
+           
+            <h3><b>Includes</b></h3>
+              <p><i class="fa fa-cutlery w3-border w3-text-red" aria-hidden="true"><span class="w3-text-black"> Meals</span></i>
+                <i class="fa fa-free-code-camp w3-border w3-text-red" aria-hidden="true"><span class="w3-text-black"> Activity</span></i>
+                <i class="fa fa-user-circle-o w3-border w3-text-red" aria-hidden="true"><span class="w3-text-black"> Guide</span></i>
+                <i class="fa fa-bed w3-border w3-text-red" aria-hidden="true"><span class="w3-text-black"> Accommodation</span></i></p>
+             
+              <h3><b>Thing with Carry</b></h3>
+              <ul class="w3-ol">
+                <li>Id Proof Compulsory</li>
+                <li>Water (2ltr minimum compulsory)</li>
+                <li>Torch with extra batteries</li>
+                <li>Extra pair of clothes & towel</li>
+                <li>Comfortable footwear</li>
+                <li>Personal medicines (if any)</li>
+                <li>Mosquito repellent cream</li>
+                <li>Sun cap and Sunscreen</li>
+              </ul>
+    
+              <h3><b>Type of Tour</b></h3>
+              <ul class="w3-ol">
+                <li>This is the Group Tour</li>
+                
+              </ul>
+    
+              <h3><b>Stay</b></h3>
+              <ul class="w3-ol">
+                <li>Tented accommodation on double sharing basis</li>
+                <li>Mattresses and blankets will be provided</li>
+              </ul>
+    
+             
+    
+              <h3><b>Activity</b></h3>
+              <ul class="w3-ol">
+                <li>Boating</li>
+                <li>Swimming</li>
+                <li>Tubing</li>
+                <li>Trakking</li>
+                <li>Camp Fire</li>
+                <li>Tent </li>
+              </ul>
+    
+              <h3><b>Cancellation Policy</b></h3>
+              <ul style="list-style-type: none;">
+                <li><i class="fa fa-caret-right w3-text-red"></i>If cancellations are made 30 days before the start date of the trip, 25% of total tour cost will be charged as cancellation fees.</li>
+                <li><i class="fa fa-caret-right w3-text-red"></i>If cancellations are made 15-30 days before the start date of the trip, 50% of total tour cost will be charged as cancellation fees.</li>
+                <li><i class="fa fa-caret-right w3-text-red"></i>If cancellations are made within 0-15 days before the start date of the trip, 100% of total tour cost will be charged as  cancellation fees.</li>
+                <li><i class="fa fa-caret-right w3-text-red"></i>In case of unforeseen weather conditions or government restrictions, certain trips or activities may get cancelled. In such cases operator will try their best to provide an alternate feasible. However a cash refund will not be applicable for the same.</li>
+                <li><i class="fa fa-caret-right w3-text-red"></i>Cancellations are strictly subjected to cancellation policies mentioned on the website & are irrespective of the date of booking.</li>
+              </ul>
+    
+              <h3><b>Booking confirmation Policy</b></h3>
+              <ul class="w3-ol" style="list-style-type: none;">
+                <li><i class="fa fa-caret-right w3-text-red"></i>The customer receives a confirmation voucher via email within 24 hours of successful booking</li>
+                <li><i class="fa fa-caret-right w3-text-red"></i>In case the preferred slots are unavailable, an alternate schedule of the customer’s preference will be arranged and a new confirmation voucher will be sent via email.</li>
+                <li><i class="fa fa-caret-right w3-text-red"></i>Alternatively, the customer may choose to cancel their booking before confirmation and a full refund will be processed.</li>
+          
+              </ul>
+    
+              <h3><b>Refund Policy</b></h3>
+              <ul class="w3-ol">
+                <li><i class="fa fa-caret-right w3-text-red"></i>The applicable refund amount will be processed within 10 business days</li>         
+              </ul>
+  
+    </div>
+       
+  <!-----------------Footer-->
+
+  <footer class="w3-black">
+    <div class="w3-row  ">
+      <div class="w3-container  w3-third" >
+       <div class="w3-container w3-left">
+        <h2 class="w3-text-blue">Payment Details</h2>
+        <p><b>Name:</b>VASANT MARUTI ASAWALE</p>
+        <p><b>Bank Name:</b>State Bank Of India</p>
+        <p><b>Account No:</b>36921412945</p>
+        <p><b>IFSC:</b>SBIN0000386</p>
+       </div>
+      </div>
+      <div class="w3-container    w3-third">
+       <div class="w3-container w3-left">
+        <h2 class="w3-text-blue">Contact Us</h2>
+        <p><b>Name:</b>VASANT MARUTI ASAWALE</p>
+        <p><b>Mobile No:</b>+91 8421528733/ 9405342256</p>
+        <p><b>At Post:</b>Akole</p>
+        <p><b>Taluka:</b>Akole</p>
+        <p><b>Dist:</b>Ahmednagar</p>
+        <p><b>Maharastra:</b>422604 </p>
+        <p><b>Email:</b>campingvisits@gmail.com </p>
+       </div>
+      </div>  
+      <div class="w3-container w3-right  w3-third">
+       <div class="w3-container w3-left">
+        <h2 class="w3-text-blue">How to Reach Us</h2>
+        <p>Murshet</p>
+        <p>Akole</p> 
+        <p>Ahmednagar 422604</p>
+      </div>
+       </div>
+    </div> 
+    <hr>
+    <div class="w3-center">
+      <a  class="w3-bar-item " id="WAButton"  href="https://wa.me/918421528733" title="click to open whatsapp chat"><i class="fa w3-xxlarge w3-text-green fa-whatsapp"></i></a>       
+      <a class="w3-bar-item " href="#"><i class="fa w3-xxlarge w3-text-blue  fa-facebook"></i></a>
+      <a class="w3-bar-item " href="#"><i class="fa w3-xxlarge w3-text-red  fa-instagram"></i></a>
+      <a class="w3-bar-item  w3-hide-large" href="sms:+918421528733"><i class="fa w3-xxlarge w3-text-white  fa-commenting-o"></i></a>
+    </div>
+  </footer>
+<script src="./js/mian.js"></script>
+
+</body>
+</html>
